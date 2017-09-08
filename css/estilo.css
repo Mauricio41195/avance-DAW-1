@@ -1,0 +1,33 @@
+body{
+	/*background: url(../img/banner2.jpg);*/
+}
+
+header{
+	background: black;
+	color: white;
+}
+
+.adaptacion{
+	height: 75vh;
+	width: 100%;
+}
+
+.responsive{
+	height: 35vh;
+}
+
+#mapa{
+	margin: auto;
+	width: 600px;
+	height: 200px;
+}
+
+#mapa iframe{
+	text-align: center;
+	width: 120%;
+	height: 200%;
+
+}
+.m{
+	text-align: center;
+}
