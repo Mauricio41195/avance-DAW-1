@@ -5,6 +5,7 @@
 	<title>El salvador</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <script type="text/javascript" src="js/validaciones.js"></script>
 </head>
 <body>
 
@@ -118,13 +119,33 @@
   <div class="container">
 
   <h1 class="text-center">Realiza sugerencias a los creadores</h1>
-    <div class="container row">
-    <button type="button" class="btn btn-success col-xs-12 col-md-2">Samuel Claros</button>
-    <button type="button" class="btn btn-danger col-xs-12 col-md-3">William Garcia</button>
-    <button type="button" class="btn btn-warning col-xs-12 col-md-2">Mauricio Torres</button>
-    <button type="button" class="btn btn-info col-xs-12 col-md-3">Hazel Vásquez</button>
-    <button type="button" class="btn btn-warning col-xs-12 col-md-2">Henry Zamora</button>
-    </div>
+    <div class="container mt-5 col-sm-5">
+<div class="jumbotron">
+  <form id="main" name="hello">
+<div class="form-group" name="divinput">
+    <label class="form-control-label" for="formGroupExampleInput">Nombre</label>
+    <input type="text" class="form-control" id="name" placeholder="nombre" name="datos">
+</div>
+<div class="form-group" name="divinput">
+  <label for="correo">Correo</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ingrese su correo" name="datos" />
+</div>
+<div id="ta"></div>
+<div class="form-group" name="divinput">
+    <label class="form-control-label" for="formGroupExampleInput">Pais de origen</label>
+    <input type="text" class="form-control" id="origin" placeholder="Ingrese su pais" name="datos" />
+  </div>
+<div class="form-group" name="divinput">
+    <label for="exampleFormControlTextarea1">Comentario</label>
+    <textarea class="form-control" id="comments" rows="3" name="datos" value=""></textarea>
+</div>
+    <button type="submit" class="btn btn-primary" id="login" >Enviar</button>
+  <button type="button" class="btn btn-info" id="ver">ver comentarios</button>
+
+    </form>
+</div>
+</div>
+
   </div>
 </div>
 
